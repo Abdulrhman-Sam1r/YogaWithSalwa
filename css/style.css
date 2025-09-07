@@ -84,7 +84,10 @@ body {
 /* end components */
 /* start header */
 .header {
-    padding: 20px;
+    /* padding: -10px; */
+    padding-bottom: -200px;
+    background-color: #a2baa4;
+    /* #8f6c838a*/
 }
 
 .header .container {
@@ -94,7 +97,8 @@ body {
 }
 
 .header .logo {
-    width: 200px;
+    width: 150px;
+    border-radius: 44%;
 }
 
 .header .links {
@@ -159,7 +163,7 @@ body {
 
 .header .links ul li a {
     display: block;
-    padding: 15PX;
+    padding: 15px;
     text-decoration: none;
     color: #2c4755;
     transition: 0.3s;
@@ -196,8 +200,9 @@ body {
 .landing .intro-text h1 {
     margin: 0;
     font-weight: bold;
-    font-size: 50px;
-    color: #764f90;
+    font-size: 60px;
+    color: #444;
+    /* #764f90 */
 }
 
 .landing .intro-text p {
@@ -356,7 +361,7 @@ body {
     .about .about-content {
         flex-direction: column;
         text-align: center;
-
+        margin-top: -10px;
     }
 }
 
@@ -488,6 +493,7 @@ body {
     padding: 30px 10px;
     text-align: center;
     font-size: 18px;
+    margin-bottom: -150px;
 }
 
 .footer span {
